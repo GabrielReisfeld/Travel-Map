@@ -9,6 +9,10 @@ dotenv.config();
 
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.send("APP IS RUNNING!");
+});
+
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
