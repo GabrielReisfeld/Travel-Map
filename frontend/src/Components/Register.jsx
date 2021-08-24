@@ -18,7 +18,7 @@ export default function Register({ setShowRegister }) {
       password: passwordRef.current.value,
     };
     try {
-      await axios.post("/users/register", newUser);
+      await axios.post("travelpins-app.herokuapp.com/users/register", newUser);
       setError(false);
       setSuccess(true);
     } catch (err) {
