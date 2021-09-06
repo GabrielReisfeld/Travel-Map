@@ -81,7 +81,7 @@ function App() {
         {...viewport}
         mapboxApiAccessToken={process.env.REACT_APP_MAPBOX}
         onViewportChange={(nextViewport) => setViewport(nextViewport)}
-        mapStyle="mapbox://styles/safak/cknndpyfq268f17p53nmpwira"
+        mapStyle="mapbox://styles/gabrielrei/ckt8tyot60w8q17lrb1kov639"
         onDblClick={handleAddClick}
         transitionDuration="100"
       >
