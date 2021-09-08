@@ -17,7 +17,7 @@
 }
 
 .logo {
-  color: slateblue;
+  color: red;
   display: flex;
   align-items: center;
   font-weight: 700;
@@ -28,8 +28,11 @@
   padding: 5px;
   border-radius: 5px;
   color: white;
-  background-color: slateblue;
+  background-color: black;
   cursor: pointer;
+}
+.registerBtn:hover {
+  background-color: blue;
 }
 
 .success {
@@ -48,4 +51,7 @@
   top: 5px;
   right: 5px;
   cursor: pointer;
+}
+.registerCancel:hover {
+  color: red;
 }

@@ -29,7 +29,7 @@ export default function Login({ setShowLogin, myStorage, setCurrentUser }) {
     <div className="loginContainer">
       <div className="logo">
         <Room />
-        Pepe
+        Pin Travel Map
       </div>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="username" ref={nameRef} />

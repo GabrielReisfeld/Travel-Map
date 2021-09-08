@@ -30,7 +30,7 @@ export default function Register({ setShowRegister }) {
     <div className="registerContainer">
       <div className="logo">
         <Room />
-        Pepe
+        Pin Travel Map
       </div>
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="username" ref={nameRef} />

@@ -96,7 +96,7 @@ function App() {
               <Room
                 style={{
                   fontSize: viewport.zoom * 7,
-                  color: p.username === currentUser ? "tomato" : "slateblue",
+                  color: p.username === currentUser ? "green" : "red",
                   cursor: "pointer",
                 }}
                 onClick={() => handleMarkerClick(p._id, p.lat, p.long)}
@@ -110,6 +110,7 @@ function App() {
                 closeOnClick={false}
                 anchor="bottom"
                 onClose={() => setCurrentPlaceId(null)}
+                className="popup"
               >
                 <div className="card">
                   <label>Place</label>
